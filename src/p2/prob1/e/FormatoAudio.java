@@ -9,7 +9,7 @@ package p2.prob1.e;
  *
  * @author Marcelo
  */
-public interface FormatoAudio <T> {
+public interface FormatoAudio {
     
     public void abrir(String nome);
     public void reproduzir(); 
