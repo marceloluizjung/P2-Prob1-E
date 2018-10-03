@@ -1,0 +1,20 @@
+Padrões de Projeto
+Atividade 01 - Extensões de arquivos
+
+Padrões de Projeto utilizados:
+
+Adapter:
+	- Cliente: interage com a interface;
+	- Alvo: FormatoAudio;
+	- Adaptador: todas com sufixo "Adapter";
+	- ClasseExistente: biblioteca disponibilizada da atividade.
+
+FactoryMethod:
+	- Produto: FormatoAudio;
+	- Criador: PlayerTypeFactory;
+	- ProdutoConcreto: classe criada com o sufixo "Adapter" apartir do Criador;
+	- CriadorConcreto: todas as classes com o sufixo "Adapter".
+
+Facade:
+	- FormatoAudioSimples: utiliza a classe PlayerTypeFactory para retorna e instancia o objeto de FormatoAudio, simplificando os métodos.
+	

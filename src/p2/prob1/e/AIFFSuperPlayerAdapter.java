@@ -1,9 +1,10 @@
-package p2.prob1.e;
+
+package ClassAdapter;
 
 import problema1.AIFFSuperPlayer;
 
-public final class AIFF implements FormatoAudio {
-
+public class AIFFSuperPlayerAdapter implements FormatoAudio{
+    
     private AIFFSuperPlayer aiff;
     int tempo = 0;
 
@@ -17,6 +18,7 @@ public final class AIFF implements FormatoAudio {
     public void reproduzir() {
 
         aiff.play();
+        tempo++;
 
     }
 
@@ -53,5 +55,5 @@ public final class AIFF implements FormatoAudio {
         aiff = new AIFFSuperPlayer("");
 
     }
-
+    
 }
