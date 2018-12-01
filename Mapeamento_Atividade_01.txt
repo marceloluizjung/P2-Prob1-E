@@ -18,3 +18,9 @@ FactoryMethod:
 Facade:
 	- FormatoAudioSimples: utiliza a classe PlayerTypeFactory para retorna e instancia o objeto de FormatoAudio, simplificando os métodos.
 	
++-*+-*+-*+-*+-*+-*+-*+-*
+Observações do Professor:
+- faltou uma classe principal para demonstrar o funcionamento de tudo: "Para apresentar a solução para a empresa, a equipe deve criar um programa que utilize as classes wmaPlay, AIFFSuperPlayer e WAVPlayer através da interface FormatoAudio, fazendo a manipulação de arquivos de áudio de forma completa. Também deve demonstrar o uso de forma simplificada."
+-  padrões estão OK
+
+Nota (0-3):2,5
